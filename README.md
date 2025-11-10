@@ -1,7 +1,5 @@
 # OT/ICS Asset Management System - Vollständiges System-Konzept
 
-**Industrial-Grade Asset Management mit ISA-95 Compliance**
-
 Bauer Automation Solutions GmbH | 2025
 
 ---
