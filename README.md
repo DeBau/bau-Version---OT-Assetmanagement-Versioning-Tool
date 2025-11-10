@@ -25,42 +25,42 @@ Das OT/ICS Asset Management System ist eine vollständig integrierte Plattform f
 ┌─────────────────────────────────────────────────────────────────┐
 │                    FRONTEND LAYER (React)                       │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
+│                                                                 │
 │  📊 DASHBOARDS                    🔧 MANAGEMENT                │
-│  ├─ Executive Overview            ├─ Asset Management          │
-│  ├─ Operations Dashboard          ├─ Location Hierarchy        │
-│  ├─ Security Dashboard            ├─ Equipment Management      │
-│  ├─ Compliance Dashboard          ├─ Process Management        │
-│  ├─ Financial Dashboard           ├─ Organization Management   │
-│  └─ Maintenance Dashboard         └─ User Management           │
-│                                                                  │
-│  🛡️ SECURITY & RISK              📈 ANALYTICS                   │
-│  ├─ Security Assessment Wizard    ├─ Financial Analysis        │
-│  ├─ Risk Assessment Wizard        ├─ Performance Analysis      │
-│  ├─ Vulnerability Management      ├─ Trend Analysis            │
-│  ├─ Compliance Reports            ├─ Predictive Maintenance    │
-│  └─ Audit Trail Viewer            └─ Cost Optimization         │
-│                                                                  │
-│  🔄 VERSION CONTROL              📋 REPORTING                   │
-│  ├─ Asset Version Browser         ├─ Custom Report Builder     │
-│  ├─ Check-Out/Check-In           ├─ Template Library           │
-│  ├─ Approval Workflow             ├─ Scheduled Reports         │
-│  ├─ Diff Viewer                   ├─ Export (Excel/PDF/CSV)    │
-│  └─ History Timeline              └─ Distribution Lists        │
-│                                                                  │
+│  ├─ Executive Overview            ├─ Asset Management           │
+│  ├─ Operations Dashboard          ├─ Location Hierarchy         │
+│  ├─ Security Dashboard            ├─ Equipment Management       │
+│  ├─ Compliance Dashboard          ├─ Process Management         │
+│  ├─ Financial Dashboard           ├─ Organization Management    │
+│  └─ Maintenance Dashboard         └─ User Management            │
+│                                                                 │
+│  🛡️ SECURITY & RISK              📈 ANALYTICS                  │
+│  ├─ Security Assessment Wizard    ├─ Financial Analysis         │
+│  ├─ Risk Assessment Wizard        ├─ Performance Analysis       │
+│  ├─ Vulnerability Management      ├─ Trend Analysis             │
+│  ├─ Compliance Reports            ├─ Predictive Maintenance     │
+│  └─ Audit Trail Viewer            └─ Cost Optimization          │
+│                                                                 │
+│  🔄 VERSION CONTROL              📋 REPORTING                  │
+│  ├─ Asset Version Browser         ├─ Custom Report Builder      │
+│  ├─ Check-Out/Check-In           ├─ Template Library            │
+│  ├─ Approval Workflow             ├─ Scheduled Reports          │
+│  ├─ Diff Viewer                   ├─ Export (Excel/PDF/CSV)     │
+│  └─ History Timeline              └─ Distribution Lists         │
+│                                                                 │
 └─────────────────────────────────────────────────────────────────┘
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
 │                    API LAYER (FastAPI)                          │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  🔐 AUTHENTICATION & AUTHORIZATION                              │
-│  ├─ Zone-aware Auth (IT Zone / Shopfloor Zone)                │
-│  ├─ Multi-mode: None / Basic / API Key / mTLS                 │
-│  ├─ Role-based Access Control (RBAC)                          │
-│  ├─ Group-based Permissions                                    │
-│  └─ LDAP/Active Directory Integration                          │
-│                                                                  │
+│                                                                 │
+│  🔐 AUTHENTICATION & AUTHORIZATION                             │
+│  ├─ Zone-aware Auth (IT Zone / Shopfloor Zone)                  │
+│  ├─ Multi-mode: None / Basic / API Key / mTLS                   │
+│  ├─ Role-based Access Control (RBAC)                            │
+│  ├─ Group-based Permissions                                     │
+│  └─ LDAP/Active Directory Integration                           │
+│                                                                 │
 │  🎫 LICENSE SYSTEM                                              │
 │  ├─ 4 License Types (Demo/Starter/Professional/Enterprise)    │
 │  ├─ Module-based Features (10+ Modules)                       │
@@ -100,38 +100,38 @@ Das OT/ICS Asset Management System ist eine vollständig integrierte Plattform f
 ┌─────────────────────────────────────────────────────────────────┐
 │                 DATA COLLECTION LAYER                           │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                  │
-│  🔍 WINDOWS AGENT                                               │
-│  ├─ System Information (WMI Queries)                           │
-│  ├─ Hardware Detection (CPU, RAM, Disks, NICs)                │
-│  ├─ Software Inventory (Installed Programs)                   │
-│  ├─ Network Configuration (IPs, MACs, VLANs)                  │
-│  ├─ Service Status Monitoring                                  │
-│  ├─ Performance Metrics Collection                             │
-│  ├─ Event Log Analysis                                         │
-│  └─ Scheduled Scans with REST Push                            │
-│                                                                  │
+│                                                                 │
+│  🔍 WINDOWS AGENT                                              │
+│  ├─ System Information (WMI Queries)                            │
+│  ├─ Hardware Detection (CPU, RAM, Disks, NICs)                  │
+│  ├─ Software Inventory (Installed Programs)                     │
+│  ├─ Network Configuration (IPs, MACs, VLANs)                    │
+│  ├─ Service Status Monitoring                                   │
+│  ├─ Performance Metrics Collection                              │
+│  ├─ Event Log Analysis                                          │
+│  └─ Scheduled Scans with REST Push                              │
+│                                                                 │
 │  🏭 OT NETWORK SCANNER                                          │
-│  ├─ PROFINET Discovery (DCP Protocol)                         │
-│  ├─ Siemens S7 Scanner (ISO-on-TCP)                           │
-│  ├─ Modbus TCP Scanner                                         │
-│  ├─ SNMP Discovery (v1/v2c/v3)                                │
-│  ├─ SSH Scanner (System Info)                                  │
-│  ├─ ARP/ICMP Network Discovery                                │
-│  ├─ Protocol Detection & Fingerprinting                       │
-│  ├─ Manufacturer Detection (OUI Lookup)                       │
-│  ├─ Model & Firmware Detection                                │
-│  └─ Auto-population to Database                               │
-│                                                                  │
-│  🔗 INTEGRATION CONNECTORS                                      │
-│  ├─ CMDB Integration (ServiceNow, BMC Remedy)                 │
-│  ├─ SIEM Integration (Splunk, QRadar, Elastic)                │
-│  ├─ ERP Integration (SAP PM, Maximo)                          │
-│  ├─ PLM Integration                                            │
-│  ├─ NVD API (Vulnerability Database)                          │
-│  ├─ Vendor Advisories (Siemens, Rockwell, etc.)               │
-│  └─ Custom REST/ODBC Connectors                               │
-│                                                                  │
+│  ├─ PROFINET Discovery (DCP Protocol)                           │
+│  ├─ Siemens S7 Scanner (ISO-on-TCP)                             │
+│  ├─ Modbus TCP Scanner                                          │
+│  ├─ SNMP Discovery (v1/v2c/v3)                                  │
+│  ├─ SSH Scanner (System Info)                                   │
+│  ├─ ARP/ICMP Network Discovery                                  │
+│  ├─ Protocol Detection & Fingerprinting                         │
+│  ├─ Manufacturer Detection (OUI Lookup)                         │
+│  ├─ Model & Firmware Detection                                  │
+│  └─ Auto-population to Database                                 │
+│                                                                 │
+│  🔗 INTEGRATION CONNECTORS                                     │
+│  ├─ CMDB Integration (ServiceNow, BMC Remedy)                   │
+│  ├─ SIEM Integration (Splunk, QRadar, Elastic)                  │
+│  ├─ ERP Integration (SAP PM, Maximo)                            │
+│  ├─ PLM Integration                                             │
+│  ├─ NVD API (Vulnerability Database)                            │
+│  ├─ Vendor Advisories (Siemens, Rockwell, etc.)                 │
+│  └─ Custom REST/ODBC Connectors                                 │
+│                                                                 │
 └─────────────────────────────────────────────────────────────────┘
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
@@ -1537,30 +1537,6 @@ Quality = (Good Units / Total Units) × 100
 
 ### License Types (4 Tiers)
 
-**1. DEMO**
-- FREE, 30 days
-- 5 Assets, 5 Agents, 1 User
-- Basic features only
-- Community Support
-
-**2. STARTER**
-- $2,000/year
-- 50 Assets, 50 Agents, 3 Users
-- Asset Management + Security Assistant (basic)
-- Email Support (48h)
-
-**3. PROFESSIONAL**
-- $5,000/year
-- 100 Assets, 100 Agents, 10 Users
-- Full Security + Risk + Compliance
-- Priority Support (24h)
-
-**4. ENTERPRISE**
-- Custom Pricing
-- Unlimited Assets/Agents/Users
-- All Modules + Custom Dev
-- Dedicated Support + SLA
-
 ### Module System (10+ Modules)
 
 **Core Modules:**
@@ -1579,98 +1555,6 @@ Quality = (Good Units / Total Units) × 100
 - Additional Asset Packs (50/100/150/200/250/500/unlimited)
 - Advanced Scanner Modules (PROFINET Pro, S7 Pro, etc.)
 - Custom Dashboards
-- White-Label Option
-
-### Feature-Level Control
-
-**Beispiel: Security Assistant Module**
-
-```python
-# Starter License
-- Basic Security Assessments (max 5 categories)
-- Vulnerability Scanning (weekly)
-- Basic Alerts
-
-# Professional License
-- Full Security Assessments (13 categories)
-- Vulnerability Scanning (daily)
-- Advanced Alerts
-- Auto-remediation suggestions
-- Compliance mapping
-
-# Enterprise License
-- All Professional features
-- Custom Security Policies
-- AI-powered Threat Detection
-- Integration with SOC
-```
-
----
-
-## Integration Layer
-
-### CMDB Integration
-
-**Unterstützte Systeme:**
-- ServiceNow (REST API + GraphQL)
-- BMC Remedy (REST API)
-- Generic CMDB (ODBC/REST)
-
-**Features:**
-- Bidirectional Sync
-- Field Mapping (customizable)
-- Conflict Resolution (Manual/Auto)
-- Scheduled Sync Jobs
-- Change Detection
-- Audit Trail
-
-**Sync Logic:**
-```python
-# Asset created in OT System
-→ Push to CMDB (if enabled)
-→ Store CMDB CI-ID in asset.external_id
-
-# Asset updated in CMDB
-→ Pull from CMDB (scheduled)
-→ Check conflict (last_modified timestamp)
-→ Merge or Notify
-```
-
-### SIEM Integration
-
-**Unterstützte Systeme:**
-- Splunk (HTTP Event Collector)
-- IBM QRadar (REST API)
-- Elastic Stack (Elasticsearch API)
-
-**Events exportiert:**
-- Asset Changes (Create/Update/Delete)
-- Security Assessments (Score changes)
-- Risk Assessments (High-risk detected)
-- Vulnerability Alerts (New CVE)
-- Check-Out/Check-In Events
-- Failed Login Attempts
-- Compliance Violations
-
-**Format:**
-- CEF (Common Event Format)
-- JSON
-- Syslog
-
-### ERP/PLM Integration
-
-**Unterstützte Systeme:**
-- SAP PM (RFC/REST)
-- IBM Maximo (REST API)
-- Oracle EAM (REST API)
-
-**Features:**
-- Work Order Sync
-- Maintenance Schedule Sync
-- Spare Parts Inventory Sync
-- Cost Center Sync
-- Purchase Order Sync
-
 ---
 
 ## Reporting System
@@ -1721,72 +1605,12 @@ Quality = (Good Units / Total Units) × 100
 - PDF
 - CSV
 - HTML
-- PowerPoint (.pptx)
 
 **Scheduling:**
 - Once/Daily/Weekly/Monthly
 - Email Distribution Lists
 - FTP/SFTP Upload
 - Webhook Trigger
-
----
-
-## Mobile App (iOS/Android)
-
-**Features:**
-- QR Code Scanner (Asset Lookup)
-- Barcode Scanner
-- NFC Tag Support
-- Asset Detail View (Read-Only/Edit)
-- Photo Upload (from Camera)
-- Document Upload
-- GPS Location Tagging
-- Work Order Management
-- Offline Mode (SQLite Cache)
-- Sync on Connection
-
-**Use Cases:**
-- Field Maintenance (Scan QR, view history, add notes)
-- Commissioning (Scan, verify installation, take photos)
-- Inventory (Walk-through with scanner)
-- Audits (On-site inspections)
-
----
-
-## Deployment Options
-
-### 1. On-Premise (Docker)
-
-```bash
-docker-compose up -d
-```
-
-**Komponenten:**
-- PostgreSQL Database
-- FastAPI Backend (2-4 instances)
-- NGINX Load Balancer
-- React Frontend (static files via NGINX)
-
-### 2. Cloud (Azure/AWS/GCP)
-
-**Azure:**
-- Azure App Service (Backend)
-- Azure Database for PostgreSQL
-- Azure Blob Storage (files)
-- Azure Front Door (CDN)
-
-**AWS:**
-- ECS/EKS (Containers)
-- RDS PostgreSQL
-- S3 (files)
-- CloudFront (CDN)
-
-### 3. Hybrid
-
-- Backend On-Premise
-- Frontend Cloud (CDN)
-- Agent On-Premise
-- Data Replication (Cloud Backup)
 
 ---
 
@@ -1819,17 +1643,16 @@ docker-compose up -d
 ✅ **License System** - 4 Tiers, Module-basiert, flexibel  
 ✅ **Integrationen** - CMDB, SIEM, ERP, PLM  
 ✅ **Reporting** - 20+ Built-In, Custom Builder, Scheduling  
-✅ **Mobile App** - iOS/Android, QR, NFC, Offline  
 ✅ **50+ ENUMs** - Standardisierte Werte  
 ✅ **~280 Asset-Felder** - Comprehensive  
 ✅ **Multi-Protocol Scanner** - PROFINET, S7, Modbus, SNMP, SSH  
 ✅ **Zone-Aware Architecture** - IT / Shopfloor getrennt  
 
-**Ein System. Alles drin. Production Ready.**
+**Ein System. Alles drin.**
 
 ---
 
 **Bauer Automation Solutions GmbH**  
 Hoher Weg 28, 59073 Hamm, Germany  
-Owner: Dennis Baier  
+Owner: Dennis Bauer  
 2025
