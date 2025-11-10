@@ -43,7 +43,7 @@ Das OT/ICS Asset Management System ist eine vollständig integrierte Plattform f
 │                                                                 │
 │  🔄 VERSION CONTROL              📋 REPORTING                  │
 │  ├─ Asset Version Browser         ├─ Custom Report Builder      │
-│  ├─ Check-Out/Check-In           ├─ Template Library            │
+│  ├─ Check-Out/Check-In            ├─ Template Library           │
 │  ├─ Approval Workflow             ├─ Scheduled Reports          │
 │  ├─ Diff Viewer                   ├─ Export (Excel/PDF/CSV)     │
 │  └─ History Timeline              └─ Distribution Lists         │
@@ -61,40 +61,40 @@ Das OT/ICS Asset Management System ist eine vollständig integrierte Plattform f
 │  ├─ Group-based Permissions                                     │
 │  └─ LDAP/Active Directory Integration                           │
 │                                                                 │
-│  🎫 LICENSE SYSTEM                                              │
-│  ├─ 4 License Types (Demo/Starter/Professional/Enterprise)    │
-│  ├─ Module-based Features (10+ Modules)                       │
-│  ├─ Asset Packs (50/100/150/200/250/500/unlimited)            │
-│  ├─ Feature-level Control                                      │
-│  └─ RSA 4096-bit Cryptographic Signing                        │
-│                                                                  │
-│  🔌 REST API ENDPOINTS                                          │
-│  ├─ Asset Management (/api/v1/assets)                         │
-│  ├─ Location Management (/api/v1/locations)                   │
-│  ├─ Equipment Management (/api/v1/equipment)                  │
-│  ├─ Process Management (/api/v1/processes)                    │
-│  ├─ Organization Management (/api/v1/organizations)           │
-│  ├─ Network Management (/api/v1/networks)                     │
-│  ├─ Version Control (/api/v1/versions)                        │
-│  ├─ Security Assessments (/api/v1/security)                   │
-│  ├─ Risk Assessments (/api/v1/risk)                           │
-│  ├─ CVE Management (/api/v1/cves)                             │
-│  ├─ Agent Management (/api/v1/agents)                         │
-│  ├─ Reports & Analytics (/api/v1/reports)                     │
-│  └─ Webhooks (/api/v1/webhooks)                               │
-│                                                                  │
-│  💾 BUSINESS LOGIC & SERVICES                                   │
-│  ├─ Asset Service (Lifecycle Management)                      │
-│  ├─ Version Control Service (Check-in/Check-out)              │
-│  ├─ Financial Rollup Service (Recursive Calculations)         │
-│  ├─ Discovery Service (Auto-population)                       │
-│  ├─ Security Service (Assessment Automation)                  │
-│  ├─ Risk Service (Risk Calculations)                          │
-│  ├─ Vulnerability Service (CVE Matching)                      │
-│  ├─ Compliance Service (Standards Mapping)                    │
-│  ├─ Analytics Service (ML/AI Features)                        │
-│  └─ Integration Service (External Systems)                    │
-│                                                                  │
+│  🎫 LICENSE SYSTEM                                             │
+│  ├─ 4 License Types (Demo/Starter/Professional/Enterprise)      │
+│  ├─ Module-based Features (10+ Modules)                         │
+│  ├─ Asset Packs (50/100/150/200/250/500/unlimited)              │
+│  ├─ Feature-level Control                                       │
+│                                                                 │
+│                                                                 │
+│  🔌 REST API ENDPOINTS                                         │
+│  ├─ Asset Management (/api/v1/assets)                           │
+│  ├─ Location Management (/api/v1/locations)                     │
+│  ├─ Equipment Management (/api/v1/equipment)                    │
+│  ├─ Process Management (/api/v1/processes)                      │
+│  ├─ Organization Management (/api/v1/organizations)             │
+│  ├─ Network Management (/api/v1/networks)                       │
+│  ├─ Version Control (/api/v1/versions)                          │
+│  ├─ Security Assessments (/api/v1/security)                     │
+│  ├─ Risk Assessments (/api/v1/risk)                             │
+│  ├─ CVE Management (/api/v1/cves)                               │
+│  ├─ Agent Management (/api/v1/agents)                           │
+│  ├─ Reports & Analytics (/api/v1/reports)                       │
+│                                                                 │
+│                                                                 │
+│  💾 BUSINESS LOGIC & SERVICES                                  │
+│  ├─ Asset Service (Lifecycle Management)                        │
+│  ├─ Version Control Service (Check-in/Check-out)                │
+│  ├─ Financial Rollup Service (Recursive Calculations)           │
+│  ├─ Discovery Service (Auto-population)                         │
+│  ├─ Security Service (Assessment Automation)                    │
+│  ├─ Risk Service (Risk Calculations)                            │
+│  ├─ Vulnerability Service (CVE Matching)                        │
+│  ├─ Compliance Service (Standards Mapping)                      │
+│  ├─ Analytics Service (ML/AI Features)                          │
+│  └─ Integration Service (External Systems)                      │
+│                                                                 │
 └─────────────────────────────────────────────────────────────────┘
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
@@ -111,7 +111,7 @@ Das OT/ICS Asset Management System ist eine vollständig integrierte Plattform f
 │  ├─ Event Log Analysis                                          │
 │  └─ Scheduled Scans with REST Push                              │
 │                                                                 │
-│  🏭 OT NETWORK SCANNER                                          │
+│  🏭 OT NETWORK SCANNER                                         │
 │  ├─ PROFINET Discovery (DCP Protocol)                           │
 │  ├─ Siemens S7 Scanner (ISO-on-TCP)                             │
 │  ├─ Modbus TCP Scanner                                          │
