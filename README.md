@@ -706,6 +706,10 @@ Das System verwendet **50+ ENUMs** für standardisierte, validierte Werte:
 
 ## Version Control System
 
+
+<img src="[https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/conceptscreenshot.png](https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/versionConceptOverview.png)" alt="Version Control System" width="800" height="600">
+
+
 ### Check-Out / Check-In Workflow
 
 **Konzept:**
@@ -1497,9 +1501,7 @@ Quality = (Good Units / Total Units) × 100
 5. **Advanced Reporting** (Enterprise)
 6. **Versioning** (Starter+, max versions depends on tier)
 7. **CVE Management** (Professional+)
-8. **Integration Hub** (Professional+)
-9. **Analytics & ML** (Enterprise)
-10. **Multi-Tenancy** (Enterprise)
+
 
 **Add-On Modules (à la carte):**
 - Additional Asset Packs (50/100/150/200/250/500/unlimited)
