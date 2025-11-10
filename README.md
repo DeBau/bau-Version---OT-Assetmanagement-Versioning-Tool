@@ -122,10 +122,6 @@ Das OT/ICS Asset Management System ist eine vollständig integrierte Plattform f
 │  └─ Auto-population to Database                                 │
 │                                                                 │
 │  🔗 INTEGRATION CONNECTORS                                     │
-│  ├─ CMDB Integration (ServiceNow, BMC Remedy)                   │
-│  ├─ SIEM Integration (Splunk, QRadar, Elastic)                  │
-│  ├─ ERP Integration (SAP PM, Maximo)                            │
-│  ├─ PLM Integration                                             │
 │  ├─ NVD API (Vulnerability Database)                            │
 │  ├─ Vendor Advisories (Siemens, Rockwell, etc.)                 │
 │  └─ Custom REST/ODBC Connectors                                 │
