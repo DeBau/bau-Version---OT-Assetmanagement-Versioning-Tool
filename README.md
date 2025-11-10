@@ -15,7 +15,7 @@ Das OT/ICS Asset Management System ist eine vollständig integrierte Plattform f
 
 ---
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/conceptscreenshot.png" alt="concept" width="800" height="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/assetOverview.png" alt="concept" width="800" height="600">
 
 ## Architektur
 
@@ -324,6 +324,9 @@ Corporation             → Konzern
 ---
 
 ## Asset-Datenmodell
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/assetSoftware.png" alt="concept" width="800" height="600">
+
 
 ### Assets - Haupttabelle (~100 Felder)
 
@@ -1344,6 +1347,8 @@ GROUP BY likelihood_rating, impact_rating;
 ## Automatische Analysen
 
 ### 1. Asset Discovery & Auto-Population
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="concept" width="800" height="600">
 
 **OT Scanner läuft automatisch:**
 - Nightly Scans (02:00-06:00)
