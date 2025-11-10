@@ -707,7 +707,7 @@ Das System verwendet **50+ ENUMs** für standardisierte, validierte Werte:
 ## Version Control System
 
 
-<img src="[https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/conceptscreenshot.png](https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/versionConceptOverview.png)" alt="Version Control System" width="800" height="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/versionConceptOverview.png" alt="Version Control System" width="800" height="600">
 
 
 ### Check-Out / Check-In Workflow
