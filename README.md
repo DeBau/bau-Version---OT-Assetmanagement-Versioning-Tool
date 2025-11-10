@@ -1,6 +1,6 @@
 # OT/ICS Asset Management System - Vollständiges System-Konzept
 
-Bauer Automation Solutions GmbH | 2025
+Bauer Automation Solutions | 2025
 
 ---
 
@@ -1600,7 +1600,7 @@ Quality = (Good Units / Total Units) × 100
 
 ---
 
-**Bauer Automation Solutions GmbH**  
+**Bauer Automation Solutions**  
 Hoher Weg 28, 59073 Hamm, Germany  
 Owner: Dennis Bauer  
 2025
