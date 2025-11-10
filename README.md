@@ -15,7 +15,7 @@ Das OT/ICS Asset Management System ist eine vollständig integrierte Plattform f
 
 ---
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/conceptscreenshot.png" alt="concept" width="600" height="400">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/conceptscreenshot.png" alt="concept" width="800" height="600">
 
 ## Architektur
 
