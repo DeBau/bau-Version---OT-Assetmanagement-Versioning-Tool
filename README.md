@@ -241,6 +241,9 @@ SELECT calculate_equipment_operating_cost('Fertigungslinie A');
 
 #### 3. Process Segment Hierarchy (Wie?)
 
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/processSegments.png" alt="concept" width="800" height="600">
+
+
 **7 Segment Types:**
 
 ```
@@ -292,6 +295,8 @@ Enterprise              → Unternehmensprozesse
 ```
 
 #### 4. Organizational Hierarchy (Wer?)
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/organization.png" alt="concept" width="800" height="600">
 
 **9 Organization Types:**
 
@@ -899,6 +904,12 @@ Jede Aktion wird geloggt:
 
 ### Security Assessment (IEC 62443 / NIS2)
 
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/securityWizard.png" alt="Version Control System" width="800" height="600">
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/security.png" alt="Version Control System" width="800" height="600">
+
+
 **13 Assessment Categories:**
 
 1. **Architecture & Segmentation**
@@ -1004,6 +1015,11 @@ Jede Aktion wird geloggt:
 - Compliance-Gap-Analyse
 
 ### Risk Assessment (ISO 27005 / IEC 62443)
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/riskWizard.png" alt="Version Control System" width="800" height="600">
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/risk.png" alt="Version Control System" width="800" height="600">
+
 
 **Risk Dimensions:**
 
