@@ -1461,54 +1461,8 @@ Quality = (Good Units / Total Units) × 100
 - ISO 13849: Safety Categories assigned?
 - NIS2: Essential/Important Entity Compliance?
 
-### 7. Anomaly Detection (ML-based)
 
-**Features:**
-- Unusual Network Traffic Patterns
-- Unexpected Parameter Changes
-- Performance Degradation Detection
-- Energy Consumption Anomalies
-
-**Algorithmen:**
-- Isolation Forest
-- LSTM Autoencoders
-- Time Series Forecasting (Prophet)
-
-### 8. Predictive Maintenance
-
-**Features:**
-- Failure Prediction (based on MTBF)
-- Optimal Maintenance Scheduling
-- Spare Parts Forecasting
-- Cost-Benefit Analysis (Preventive vs Corrective)
-
-**Data Sources:**
-- Operating Hours
-- Cycles Count
-- Performance Metrics
-- Historical Failures
-- Environmental Conditions
-
-### 9. Network Segmentation Analysis
-
-**Automatische Prüfungen:**
-
-```python
-# Weekly Segmentation Check
-1. Identify all network zones
-2. Check for cross-zone connections:
-   - Production → Office: VIOLATION
-   - DMZ → Production: OK (if controlled)
-3. Purdue Model Compliance:
-   - Level 0 → Level 4: VIOLATION
-   - Level 2 → Level 3.5 (DMZ): OK
-4. Firewall Rule Analysis:
-   - Too permissive rules?
-   - Unused rules?
-5. Generate Segmentation Report
-```
-
-### 10. License Utilization & Optimization
+### 7. License Utilization & Optimization
 
 **Automatische Analysen:**
 
