@@ -1350,6 +1350,8 @@ GROUP BY likelihood_rating, impact_rating;
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="concept" width="800" height="600">
 
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agentJsonView.png" alt="concept" width="800" height="600">
+
 **OT Scanner läuft automatisch:**
 - Nightly Scans (02:00-06:00)
 - Protocol Detection
