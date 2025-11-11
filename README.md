@@ -1041,16 +1041,16 @@ Jede Aktion wird geloggt:
 ## 🎨 UX Highlights
 
 ### Question Cards
-```
+
 - Clean, card-based layout
 - Expandable help sections
 - Color-coded answer options
 - Point values clearly visible
 - "Answered" check-marks
-```
+
 
 ### Answer Options
-```
+
 0-10 Point Scale:
 → 0: Not Implemented (Red)
 → 2: Minimal (Orange)  
@@ -1058,20 +1058,19 @@ Jede Aktion wird geloggt:
 → 6: Intermediate (Green)
 → 8: Advanced (Dark Green)
 → 10: Optimized (Blue)
-```
+
 
 ### Results Page
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/security.png" alt="Version Control System" width="1000" height="800">
 
-```
 - Giant overall score ring
 - Score rating badge (Excellent/Good/Fair/Poor/Critical)
 - Radar chart with 13-point profile
 - Per-category progress bars
 - Top 3 priority recommendations
 - Export & Save buttons
-```
+
 
 ## 💯 Scoring System
 
@@ -1121,117 +1120,8 @@ Weighted average across all 13 categories
 - OT-Sprache (Purdue, Safety, Legacy)
 - Kontextualisierte Fragen
 - Inline-Hilfe & Beispiele
-
 - Intuitiv zu bedienen
 
----
-
-
-
-
-**13 Assessment Categories:**
-
-1. **Architecture & Segmentation**
-   - Network segmentation level
-   - Purdue model compliance
-   - Zone/conduit architecture
-   - DMZ implementation
-   - Firewall deployment
-
-2. **CIA Requirements & Business Criticality**
-   - Confidentiality requirements
-   - Integrity requirements
-   - Availability requirements
-   - Business impact assessment
-   - Recovery time objectives (RTO)
-
-3. **Legacy Status & Support**
-   - Age of system
-   - Vendor support status
-   - Patch availability
-   - End-of-life status
-   - Upgrade path available
-
-4. **Safety Integration**
-   - Safety-critical function
-   - Safety integrity level (SIL)
-   - Safety PLC integration
-   - Emergency stop implementation
-   - Safety monitoring
-
-5. **Access Control & Authentication**
-   - Authentication methods
-   - Password policy
-   - Multi-factor authentication
-   - Privilege escalation controls
-   - Account management
-
-6. **Remote Access & VPN**
-   - Remote access availability
-   - VPN implementation
-   - Remote access logging
-   - Jump server usage
-   - Vendor remote access
-
-7. **Patch Management & Vulnerability**
-   - Patch management process
-   - Vulnerability scanning
-   - Patch deployment testing
-   - Patch deployment schedule
-   - Compensating controls
-
-8. **Monitoring & Logging**
-   - Security event logging
-   - Log retention
-   - Log analysis
-   - Intrusion detection
-   - Anomaly detection
-
-9. **Backup & Business Continuity**
-   - Backup frequency
-   - Backup testing
-   - Offsite backup storage
-   - Disaster recovery plan
-   - Business continuity plan
-
-10. **Resilience & Redundancy**
-    - System redundancy
-    - Failover capabilities
-    - Spare parts availability
-    - MTTR targets
-    - Recovery procedures
-
-11. **Physical Security**
-    - Physical access controls
-    - Surveillance systems
-    - Asset tracking
-    - Environmental monitoring
-    - Tamper protection
-
-12. **Governance & Policies**
-    - Security policies
-    - Change management
-    - Configuration management
-    - Documentation completeness
-    - Training & awareness
-
-13. **Incident Readiness**
-    - Incident response plan
-    - Incident response team
-    - Communication procedures
-    - Forensics capabilities
-    - Post-incident reviews
-
-**Scoring:**
-- 0-10 Punkte pro Kategorie
-- Overall Security Score (0-100)
-- Status: Draft/Completed/Approved/Expired
-
-**Automatische Analysen:**
-- Schwachstellen-Identifikation
-- Priorisierung nach Criticality
-- Handlungsempfehlungen
-- Compliance-Gap-Analyse
 
 ### Risk Assessment (ISO 27005 / IEC 62443)
 
