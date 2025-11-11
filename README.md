@@ -907,10 +907,219 @@ Jede Aktion wird geloggt:
 
 ### Security Assessment (IEC 62443 / NIS2)
 
-
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/securityWizard.png" alt="Version Control System" width="800" height="600">
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/security.png" alt="Version Control System" width="800" height="600">
+
+
+## 🎯 Features
+
+### Progressive Wizard Experience
+- ✅ **13 Kategorien** - Schritt für Schritt durch alle Security-Bereiche
+- ✅ **65+ Fragen** - Umfassende Bewertung aller Aspekte
+- ✅ **Kontextuelle Hilfe** - Tooltips, Beispiele, Best Practices inline
+- ✅ **Live Progress** - Echtzeit-Fortschrittsanzeige
+- ✅ **Smart Scoring** - Gewichtete Berechnung nach Kritikalität
+
+### Visual Excellence
+- 📊 **Radar Chart** - 360° Security Profile Visualization
+- 🎨 **Color-Coded Ratings** - Instant visual feedback
+- 📈 **Category Progress Bars** - Per-category scores
+- 🏆 **Score Badges** - Excellent / Good / Fair / Poor / Critical
+- ⚡ **Smooth Animations** - Professional transitions
+
+### User-Centric Design
+- 💡 **Why This Matters** - Erklärung der Relevanz jeder Frage
+- 📋 **Real-World Examples** - Konkrete Beispiele aus OT-Praxis
+- ⭐ **Best Practices** - IEC 62443 Empfehlungen
+- 🎯 **Priority Recommendations** - Top 3 Verbesserungsbereiche
+- ✅ **Completion Indicators** - Check-marks bei beantworteten Fragen
+
+## 📊 13 Assessment Kategorien
+
+
+<details>
+<summary><strong>📊 13 Assessment Kategorien</strong></summary>
+
+- Architecture & Segmentation
+- CIA & Business Criticality
+- Legacy Status & Support
+- Safety Integration
+- Access Control & Authentication
+- Patch Management & Vulnerability
+
+</details>
+
+<details open>
+<summary><strong>🏗️ Kategorien</strong></summary>
+  
+### 1. Architecture & Segmentation
+- Network segmentation (Flat / VLANs / Purdue Model)
+- DMZ implementation
+- Industrial firewalls
+- Zone/conduit architecture
+
+### 2. CIA & Business Criticality
+- Confidentiality requirements
+- Integrity requirements
+- Availability requirements
+- Business impact (€/hour)
+- RTO (Recovery Time Objective)
+
+### 3. Legacy Status & Support
+- System age
+- Vendor support status
+- Patch availability
+- End-of-life status
+
+### 4. Safety Integration
+- Safety-critical functions
+- SIL levels (IEC 61508)
+- Safety PLC integration
+- Emergency stop systems
+
+### 5. Access Control & Authentication
+- Authentication methods (None → MFA)
+- Password policies
+- Privilege escalation controls
+- Account management
+
+### 6. Remote Access & VPN
+- VPN implementation
+- Remote access logging
+- Jump servers
+- Vendor access controls
+
+### 7. Patch Management & Vulnerability
+- Patch management process
+- Vulnerability scanning frequency
+- Patch testing
+- Compensating controls
+
+### 8. Monitoring & Logging
+- Security event logging
+- Log retention (days)
+- IDS/IPS deployment
+- Anomaly detection
+
+### 9. Backup & Business Continuity
+- Backup frequency
+- Backup testing
+- Offsite storage
+- DR/BC plans
+
+### 10. Resilience & Redundancy
+- System redundancy (None → Hot Standby)
+- Failover capabilities
+- Spare parts
+- MTTR targets
+
+### 11. Physical Security
+- Physical access controls
+- Surveillance systems
+- Asset tracking
+- Environmental monitoring
+
+### 12. Governance & Policies
+- Security policies
+- Change management
+- Configuration management
+- Training & awareness
+
+### 13. Incident Readiness
+- Incident response plan
+- IR team
+- Communication procedures
+- Forensics capabilities
+
+</details>
+
+## 🎨 UX Highlights
+
+### Question Cards
+```
+- Clean, card-based layout
+- Expandable help sections
+- Color-coded answer options
+- Point values clearly visible
+- "Answered" check-marks
+```
+
+### Answer Options
+```
+0-10 Point Scale:
+→ 0: Not Implemented (Red)
+→ 2: Minimal (Orange)  
+→ 4: Basic (Yellow)
+→ 6: Intermediate (Green)
+→ 8: Advanced (Dark Green)
+→ 10: Optimized (Blue)
+```
+
+### Results Page
+```
+- Giant overall score ring
+- Score rating badge (Excellent/Good/Fair/Poor/Critical)
+- Radar chart with 13-point profile
+- Per-category progress bars
+- Top 3 priority recommendations
+- Export & Save buttons
+```
+
+## 💯 Scoring System
+
+### Category Weights
+```typescript
+Architecture & Segmentation:   1.2x
+CIA & Business Criticality:    1.5x  (highest)
+Legacy Status:                 1.0x
+Safety Integration:            1.3x
+Access Control:                1.4x
+Remote Access:                 1.3x
+Patch Management:              1.4x
+Monitoring & Logging:          1.2x
+Backup & BC:                   1.3x
+Resilience:                    1.1x
+Physical Security:             1.0x
+Governance:                    1.2x
+Incident Readiness:            1.3x
+```
+
+### Overall Score Calculation
+```
+Weighted average across all 13 categories
+→ 90-100: Excellent (Blue)
+→ 75-89:  Good (Green)
+→ 60-74:  Fair (Yellow)
+→ 40-59:  Poor (Orange)
+→ 0-39:   Critical (Red)
+```
+
+## 🎯 Target Users
+
+**Automatisierungs-Ingenieure** (nicht IT-Security!)
+- Kennen die Anlagen
+- Verstehen OT-Prozesse
+- Brauchen verständliche Fragen
+- Wollen Kontext & Beispiele
+
+## 🏆 Differentiators
+
+❌ **andere Tools**
+- IT-Security Buzzwords
+- abstrakte Fragerei
+- Keine Checklisten-Mentalität
+
+✅ **SONDERN:**
+- OT-Sprache (Purdue, Safety, Legacy)
+- Kontextualisierte Fragen
+- Inline-Hilfe & Beispiele
+
+- Intuitiv zu bedienen
+
+---
+
+
 
 
 **13 Assessment Categories:**
