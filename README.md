@@ -15,7 +15,7 @@ Das OT/ICS Asset Management System ist eine vollständig integrierte Plattform f
 
 ---
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/assetOverview.png" alt="concept" width="800" height="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/assetOverview.png" alt="concept" width="1000" height="800">
 
 ## Architektur
 
@@ -166,7 +166,9 @@ Enterprise              → Konzern/Holding-Ebene
                                 └── Slot    → Slot/Position (Slot 3, Position 4)
 ```
 
-**Datenfelder (45+ pro Location):**
+<details>
+<summary><strong>Datenfelder (45+ pro Location)</strong></summary>
+
 - Basis: Name, Type, Description, Parent
 - Adresse: Address, City, State, ZIP, Country
 - GPS: Latitude, Longitude, Altitude
@@ -176,6 +178,7 @@ Enterprise              → Konzern/Holding-Ebene
 - Notfall: Emergency Contact, Assembly Point, Evacuation Route
 - Dokumentation: Floor Plans, Access Restrictions, Notes
 - Custom: Custom Attributes (JSONB)
+</details>
 
 **Besonderheiten:**
 - Automatische Full Path Generation (`/Enterprise/Site-Hamm/Halle-A/EG/Produktion/Raum-101`)
@@ -203,7 +206,9 @@ Enterprise              → Gesamtunternehmen
                                             └── Component    → Komponente
 ```
 
-**Datenfelder (60+ pro Equipment):**
+<details>
+<summary><strong>Datenfelder (60+ pro Equipment)</strong></summary>
+
 - Basis: Name, Class, Description, Parent
 - Location: Physical Location Link
 - Finanzen: Acquisition Cost, Current Book Value, Annual Operating Cost, Annual Maintenance Cost, Depreciation
@@ -213,6 +218,9 @@ Enterprise              → Gesamtunternehmen
 - Kapazität: Throughput (Units/hour), Max Production Rate
 - Organisation: Cost Center, Profit Center, Responsible Person, Operator
 - Custom: Custom Attributes (JSONB)
+</details>
+
+
 
 **Financial Rollup - Das Killer-Feature:**
 
@@ -263,7 +271,10 @@ Enterprise              → Unternehmensprozesse
 - `Semi_Continuous` - Hybrid
 - `Campaign` - Kampagnenfertigung (Food & Beverage)
 
-**Datenfelder (50+ pro Process Segment):**
+
+<details>
+<summary><strong>Datenfelder (50+ pro Process Segment)</strong></summary>
+
 - Basis: Name, Type, Execution Type, Description, Parent
 - Material: Input Materials (JSON), Output Materials (JSON), Material Balance
 - Parameter: Process Parameters (JSON: Sollwerte, Toleranzen, Grenzwerte)
@@ -274,6 +285,9 @@ Enterprise              → Unternehmensprozesse
 - Ressourcen: Required Personnel Count, Required Equipment (JSON), Required Tools (JSON)
 - Qualität: Quality Parameters (JSON), Inspection Points, Test Requirements
 - Custom: Custom Attributes (JSONB)
+</details>
+
+
 
 **Prozess-Dokumentation:**
 ```json
@@ -312,7 +326,9 @@ Corporation             → Konzern
                     └── Investment_Center → Investment Center
 ```
 
-**Datenfelder (35+ pro Organization):**
+<details>
+<summary><strong>Datenfelder (35+ pro Organization)</strong></summary>
+
 - Basis: Name, Type, Description, Parent
 - Finanzen: Cost Center Number, Profit Center Number, Investment Center Number
 - Budget: Budget Yearly, Actual Spending Yearly, Budget Utilization %
@@ -320,13 +336,11 @@ Corporation             → Konzern
 - Headcount: Employee Count, Contractor Count, Temporary Count
 - Verantwortung: Area of Responsibility, Asset Count
 - Custom: Custom Attributes (JSONB)
-
----
+</details>
 
 ## Asset-Datenmodell
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/assetSoftware.png" alt="concept" width="800" height="600">
-
 
 ### Assets - Haupttabelle (~100 Felder)
 
@@ -397,7 +411,11 @@ Corporation             → Konzern
 **Custom:**
 - Context Data (JSONB) - Beliebige zusätzliche Felder
 
-### Asset Inventory - OT Extended (~135 Felder)
+<details>
+<summary><strong>Asset Inventory - OT Extended (~135 Felder)</strong></summary>
+
+
+### 
 
 **1:1 Erweiterung zu Assets mit OT-spezifischen Feldern:**
 
@@ -478,7 +496,7 @@ Corporation             → Konzern
 
 ### Asset Network Adapters (~45 Felder)
 
-**N:1 Relation - Ein Asset kann mehrere Netzwerkschnittstellen haben:**
+**N:M Relation - Ein Asset kann mehrere Netzwerkschnittstellen haben:**
 
 **Identifikation:**
 - Adapter Name (z.B. "eth0", "eth1", "en0", "PROFINET Port 1")
@@ -532,7 +550,8 @@ Corporation             → Konzern
 - Encryption Enabled, Encryption Type
 - Firewall Rules (JSON), Access Control List (JSON)
 
----
+</details>
+
 
 ## ENUMs - Validierte Wertelisten
 
