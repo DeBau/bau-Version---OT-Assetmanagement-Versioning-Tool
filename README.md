@@ -149,6 +149,8 @@ Das System implementiert die vollständigen ISA-95 Hierarchien als **separate, u
 - Historisierung ohne Datenverlust
 - Parallele Organisationsformen
 
+---
+
 #### 1. Physical Location Hierarchy (Wo?)
 
 **10 Location Types:**
@@ -191,6 +193,8 @@ Enterprise              → Konzern/Holding-Ebene
   
 </details>
 
+---
+
 
 #### 2. Equipment Hierarchy (Was?)
 
@@ -228,7 +232,7 @@ Enterprise              → Gesamtunternehmen
   
 </details>
 
-
+---
 
 **Financial Rollup - Das Killer-Feature:**
 
@@ -254,6 +258,8 @@ SELECT calculate_equipment_operating_cost('Fertigungslinie A');
 - `calculate_equipment_operating_cost(equipment_name)` - Jährliche Betriebskosten
 - `calculate_equipment_oee(equipment_name)` - Gewichteter OEE
 - `count_equipment_assets(equipment_name, recursive)` - Asset-Anzahl
+
+---
 
 #### 3. Process Segment Hierarchy (Wie?)
 
@@ -319,6 +325,8 @@ Enterprise              → Unternehmensprozesse
 ```
 <br>
 
+---
+
 #### 4. Organizational Hierarchy (Wer?)
 <br>
 
@@ -354,6 +362,8 @@ Corporation             → Konzern
 </details>
 <br>
 
+---
+
 ## Asset-Datenmodell
 <br>
 
@@ -380,6 +390,8 @@ Corporation             → Konzern
   
 </details>
 <br>
+
+---
 
 <details>  
 <summary><strong>Assets -Datails</strong></summary>
@@ -453,9 +465,8 @@ Corporation             → Konzern
 - Context Data (JSONB) - Beliebige zusätzliche Felder
 
 </details>
-<br>
 
-### 
+---
 
 <details>
 <summary><strong>Asset Inventory - OT Extended (~135 Felder)</strong></summary>
@@ -597,6 +608,8 @@ Corporation             → Konzern
 </details>
 <br>
 
+---
+
 ## ENUMs - Validierte Wertelisten
 
 Das System verwendet **50+ ENUMs** für standardisierte, validierte Werte:
@@ -612,7 +625,8 @@ Das System verwendet **50+ ENUMs** für standardisierte, validierte Werte:
 - Process & Organization
   
 </details>
-<br>
+
+---
 
 <details>
 <summary><strong>Details</strong></summary>
@@ -792,6 +806,8 @@ Das System verwendet **50+ ENUMs** für standardisierte, validierte Werte:
 
 </details>
 <br>
+
+---
 
 ## Version Control System
 
