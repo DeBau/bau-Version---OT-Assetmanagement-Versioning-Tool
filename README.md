@@ -907,7 +907,7 @@ Jede Aktion wird geloggt:
 
 ### Security Assessment (IEC 62443 / NIS2)
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/securityWizard.png" alt="Version Control System" width="800" height="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/securityWizard.png" alt="Version Control System" width="1000" height="800">
 
 ## 🎯 Features
 
@@ -1062,7 +1062,7 @@ Jede Aktion wird geloggt:
 
 ### Results Page
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/security.png" alt="Version Control System" width="800" height="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/security.png" alt="Version Control System" width="1000" height="800">
 
 ```
 - Giant overall score ring
