@@ -607,13 +607,12 @@ DRAFT → REVIEW → APPROVED → PRODUCTIVE → WITHDRAWN → ARCHIVED
 - ✅ Color-Coded Ratings
 - ✅ Best Practice Recommendations
 - ✅ IEC 62443 & NIS2 konform
-
 </details>
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/security.png" alt="Security Results" width="1000">
 <br>
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/risk.png" alt="Risk Results" width="1000">
-<br>
+
+
 ### Risk Assessment
 <br>
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/riskWizard.png" alt="Risk Wizard" width="1000">
@@ -631,9 +630,10 @@ DRAFT → REVIEW → APPROVED → PRODUCTIVE → WITHDRAWN → ARCHIVED
 - Avoid / Mitigate / Transfer / Accept
 - Control Effectiveness (0-10)
 - Residual Risk Calculation
-
 </details>
-
+<br>
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/risk.png" alt="Risk Results" width="1000">
+<br>
 ---
 
 ## 📈 Dashboards
