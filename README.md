@@ -165,6 +165,15 @@ Enterprise              → Konzern/Holding-Ebene
                             ├── Rack    → Rack (Rack 1, 19" Rack)
                                 └── Slot    → Slot/Position (Slot 3, Position 4)
 ```
+<br>
+
+**Besonderheiten:**
+- Automatische Full Path Generation (`/Enterprise/Site-Hamm/Halle-A/EG/Produktion/Raum-101`)
+- Gefahrenbereich-Tracking (Ex-Schutz Zonen)
+- Security Level Vererbung
+- GPS-Koordinaten für Outdoor Assets
+  
+<br>
 
 <details>
 <summary><strong>Datenfelder (45+ pro Location)</strong></summary>
@@ -179,13 +188,9 @@ Enterprise              → Konzern/Holding-Ebene
 - Notfall: Emergency Contact, Assembly Point, Evacuation Route
 - Dokumentation: Floor Plans, Access Restrictions, Notes
 - Custom: Custom Attributes (JSONB)
+  
 </details>
 
-**Besonderheiten:**
-- Automatische Full Path Generation (`/Enterprise/Site-Hamm/Halle-A/EG/Produktion/Raum-101`)
-- Gefahrenbereich-Tracking (Ex-Schutz Zonen)
-- Security Level Vererbung
-- GPS-Koordinaten für Outdoor Assets
 
 #### 2. Equipment Hierarchy (Was?)
 
@@ -220,6 +225,7 @@ Enterprise              → Gesamtunternehmen
 - Kapazität: Throughput (Units/hour), Max Production Rate
 - Organisation: Cost Center, Profit Center, Responsible Person, Operator
 - Custom: Custom Attributes (JSONB)
+  
 </details>
 
 
@@ -287,6 +293,7 @@ Enterprise              → Unternehmensprozesse
 - Ressourcen: Required Personnel Count, Required Equipment (JSON), Required Tools (JSON)
 - Qualität: Quality Parameters (JSON), Inspection Points, Test Requirements
 - Custom: Custom Attributes (JSONB)
+- 
 </details>
 
 
@@ -339,6 +346,7 @@ Corporation             → Konzern
 - Headcount: Employee Count, Contractor Count, Temporary Count
 - Verantwortung: Area of Responsibility, Asset Count
 - Custom: Custom Attributes (JSONB)
+  
 </details>
 
 ## Asset-Datenmodell
@@ -348,6 +356,7 @@ Corporation             → Konzern
 <details open>
 <summary><strong>Assets - Haupttabelle (~100 Felder)</strong></summary>
 <br>
+  
 - Basis-Daten
 - Identifikation
 - Network (Primary)
@@ -361,6 +370,7 @@ Corporation             → Konzern
 - Nutzung
 - Produktion
 - Custom
+  
 </details>
 
 
@@ -583,6 +593,23 @@ Corporation             → Konzern
 
 Das System verwendet **50+ ENUMs** für standardisierte, validierte Werte:
 
+<details>
+<summary><strong>Assets - Haupttabelle (~100 Felder)</strong></summary>
+<br>
+  
+- Asset & Hardware
+- Networking
+- Standards & Classification
+- Lifecycle & Maintenance
+- Process & Organization
+  
+</details>
+<br>
+
+<details>
+<summary><strong>Assets - Haupttabelle (~100 Felder)</strong></summary>
+<br>
+  
 ### Asset & Hardware
 
 **asset_type** (32 Werte):
@@ -755,12 +782,12 @@ Das System verwendet **50+ ENUMs** für standardisierte, validierte Werte:
 - Department, Team
 - Cost_Center, Profit_Center, Investment_Center
 
----
+</details>
 
 ## Version Control System
 
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/versionConceptOverview.png" alt="Version Control System" width="800" height="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/versionConceptOverview.png" alt="Version Control System" width="1000" height="800">
 
 
 ### Check-Out / Check-In Workflow
