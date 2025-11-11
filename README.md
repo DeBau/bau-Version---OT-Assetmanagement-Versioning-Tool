@@ -211,7 +211,7 @@ Enterprise              → Gesamtunternehmen
                                         ├── Control_Module    → Steuerungsmodul
                                             └── Component    → Komponente
 ```
-
+<br>
 <details>
 <summary><strong>Datenfelder (60+ pro Equipment)</strong></summary>
 <br>
@@ -270,6 +270,7 @@ Enterprise              → Unternehmensprozesse
                 ├── Operation    → Operation
                     └── Phase    → Phase
 ```
+<br>
 
 **5 Execution Types:**
 - `Continuous` - Durchlaufprozess (24/7, z.B. Raffinerie)
@@ -295,7 +296,7 @@ Enterprise              → Unternehmensprozesse
 - Custom: Custom Attributes (JSONB)
 - 
 </details>
-
+<br>
 
 
 **Prozess-Dokumentation:**
@@ -316,10 +317,13 @@ Enterprise              → Unternehmensprozesse
   }
 }
 ```
+<br>
 
 #### 4. Organizational Hierarchy (Wer?)
+<br>
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/organization.png" alt="concept" width="1000" height="800">
+<br>
 
 **9 Organization Types:**
 
@@ -334,7 +338,7 @@ Corporation             → Konzern
                     ├── Profit_Center     → Profit Center
                     └── Investment_Center → Investment Center
 ```
-
+<br>
 <details>
 <summary><strong>Datenfelder (35+ pro Organization)</strong></summary>
 <br>
@@ -348,10 +352,13 @@ Corporation             → Konzern
 - Custom: Custom Attributes (JSONB)
   
 </details>
+<br>
 
 ## Asset-Datenmodell
+<br>
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/assetSoftware.png" alt="concept" width="1000" height="800">
+<br>
 
 <details open>
 <summary><strong>Assets - Haupttabelle (~100 Felder)</strong></summary>
@@ -372,7 +379,7 @@ Corporation             → Konzern
 - Custom
   
 </details>
-
+<br>
 
 <details>  
 <summary><strong>Assets -Datails</strong></summary>
@@ -446,6 +453,7 @@ Corporation             → Konzern
 - Context Data (JSONB) - Beliebige zusätzliche Felder
 
 </details>
+<br>
 
 ### 
 
@@ -587,13 +595,13 @@ Corporation             → Konzern
 - Firewall Rules (JSON), Access Control List (JSON)
 
 </details>
-
+<br>
 
 ## ENUMs - Validierte Wertelisten
 
 Das System verwendet **50+ ENUMs** für standardisierte, validierte Werte:
 
-<details>
+<details open>
 <summary><strong>Assets - Haupttabelle (~100 Felder)</strong></summary>
 <br>
   
@@ -607,7 +615,7 @@ Das System verwendet **50+ ENUMs** für standardisierte, validierte Werte:
 <br>
 
 <details>
-<summary><strong>Assets - Haupttabelle (~100 Felder)</strong></summary>
+<summary><strong>Details</strong></summary>
 <br>
   
 ### Asset & Hardware
@@ -783,12 +791,14 @@ Das System verwendet **50+ ENUMs** für standardisierte, validierte Werte:
 - Cost_Center, Profit_Center, Investment_Center
 
 </details>
+<br>
 
 ## Version Control System
 
+<br>
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/versionConceptOverview.png" alt="Version Control System" width="1000" height="800">
-
+<br>
 
 ### Check-Out / Check-In Workflow
 
