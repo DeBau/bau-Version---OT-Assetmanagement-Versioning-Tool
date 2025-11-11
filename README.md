@@ -404,7 +404,7 @@ SELECT calculate_equipment_operating_cost('Fertigungslinie A');
 
 ### 3. Process Segment Hierarchy (Wie?)
 <br>
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/processSegments.png" alt="Process Segments" width="800">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/processSegments.png" alt="Process Segments" width="1000">
 <br>
 <details>
 <summary><strong>🔄 7 Segment Types mit 5 Execution Types</strong></summary>
@@ -443,7 +443,7 @@ Enterprise → Site → Area → Process_Cell
 
 ### 4. Organizational Hierarchy (Wer?)
 <br>
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/organization.png" alt="Organization" width="800">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/organization.png" alt="Organization" width="1000">
 <br>
 <details>
 <summary><strong>👥 9 Organization Types mit Budgetverwaltung</strong></summary>
@@ -465,7 +465,7 @@ Corporation → Company → Business_Unit → Division
 
 ## 💾 Asset-Datenmodell
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/assetSoftware.png" alt="Asset Software" width="800">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/assetSoftware.png" alt="Asset Software" width="1000">
 
 ### Assets Haupttabelle
 
@@ -611,14 +611,16 @@ DRAFT → REVIEW → APPROVED → PRODUCTIVE → WITHDRAWN → ARCHIVED
 </details>
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/security.png" alt="Security Results" width="1000">
-
+<br>
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/risk.png" alt="Risk Results" width="1000">
+<br>
 ### Risk Assessment
-
+<br>
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/riskWizard.png" alt="Risk Wizard" width="1000">
+<br>
 <details>
 <summary><strong>ISO 27005 / IEC 62443 Risk Management</strong></summary>
 <br>
-
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/riskWizard.png" alt="Risk Wizard" width="800">
 
 **Risk Dimensions**
 - **Likelihood:** 0-10 Score mit 5 Ratings
@@ -629,8 +631,6 @@ DRAFT → REVIEW → APPROVED → PRODUCTIVE → WITHDRAWN → ARCHIVED
 - Avoid / Mitigate / Transfer / Accept
 - Control Effectiveness (0-10)
 - Residual Risk Calculation
-
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/risk.png" alt="Risk Results" width="800">
 
 </details>
 
