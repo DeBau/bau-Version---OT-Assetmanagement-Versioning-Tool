@@ -403,12 +403,12 @@ SELECT calculate_equipment_operating_cost('Fertigungslinie A');
 </details>
 
 ### 3. Process Segment Hierarchy (Wie?)
-
+<br>
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/processSegments.png" alt="Process Segments" width="800">
+<br>
 <details>
 <summary><strong>🔄 7 Segment Types mit 5 Execution Types</strong></summary>
 <br>
-
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/processSegments.png" alt="Process Segments" width="800">
 
 **Segment Types**
 ```
@@ -442,13 +442,13 @@ Enterprise → Site → Area → Process_Cell
 </details>
 
 ### 4. Organizational Hierarchy (Wer?)
-
+<br>
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/organization.png" alt="Organization" width="800">
+<br>
 <details>
 <summary><strong>👥 9 Organization Types mit Budgetverwaltung</strong></summary>
 <br>
-
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/organization.png" alt="Organization" width="800">
-
+  
 ```
 Corporation → Company → Business_Unit → Division 
 → Department → Team → Cost/Profit/Investment Center
