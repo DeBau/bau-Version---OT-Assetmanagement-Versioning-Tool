@@ -822,6 +822,7 @@ DRAFT → REVIEW → APPROVED → PRODUCTIVE → WITHDRAWN → ARCHIVED
 **Bauer Automation Solutions**  
 Hoher Weg 28  
 59073 Hamm, Germany 
+
 mail: dennis.bauer@bauer-automation-solutions.de
 
 **Owner:** Dennis Bauer  
