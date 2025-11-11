@@ -168,7 +168,8 @@ Enterprise              → Konzern/Holding-Ebene
 
 <details>
 <summary><strong>Datenfelder (45+ pro Location)</strong></summary>
-
+<br>
+  
 - Basis: Name, Type, Description, Parent
 - Adresse: Address, City, State, ZIP, Country
 - GPS: Latitude, Longitude, Altitude
@@ -208,7 +209,8 @@ Enterprise              → Gesamtunternehmen
 
 <details>
 <summary><strong>Datenfelder (60+ pro Equipment)</strong></summary>
-
+<br>
+  
 - Basis: Name, Class, Description, Parent
 - Location: Physical Location Link
 - Finanzen: Acquisition Cost, Current Book Value, Annual Operating Cost, Annual Maintenance Cost, Depreciation
@@ -251,7 +253,6 @@ SELECT calculate_equipment_operating_cost('Fertigungslinie A');
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/processSegments.png" alt="concept" width="1000" height="800">
 
-
 **7 Segment Types:**
 
 ```
@@ -274,7 +275,8 @@ Enterprise              → Unternehmensprozesse
 
 <details>
 <summary><strong>Datenfelder (50+ pro Process Segment)</strong></summary>
-
+<br>
+  
 - Basis: Name, Type, Execution Type, Description, Parent
 - Material: Input Materials (JSON), Output Materials (JSON), Material Balance
 - Parameter: Process Parameters (JSON: Sollwerte, Toleranzen, Grenzwerte)
@@ -328,7 +330,8 @@ Corporation             → Konzern
 
 <details>
 <summary><strong>Datenfelder (35+ pro Organization)</strong></summary>
-
+<br>
+  
 - Basis: Name, Type, Description, Parent
 - Finanzen: Cost Center Number, Profit Center Number, Investment Center Number
 - Budget: Budget Yearly, Actual Spending Yearly, Budget Utilization %
@@ -344,7 +347,7 @@ Corporation             → Konzern
 
 <details open>
 <summary><strong>Assets - Haupttabelle (~100 Felder)</strong></summary>
-
+<br>
 - Basis-Daten
 - Identifikation
 - Network (Primary)
@@ -361,14 +364,10 @@ Corporation             → Konzern
 </details>
 
 
-<details>
-
-  ### 
-  
+<details>  
 <summary><strong>Assets -Datails</strong></summary>
-
-### Assets - Haupttabelle (~100 Felder)
-
+<br>
+  
 **Basis-Daten:**
 - Name (UNIQUE), Type, Status, Description, UUID
 
@@ -442,7 +441,8 @@ Corporation             → Konzern
 
 <details>
 <summary><strong>Asset Inventory - OT Extended (~135 Felder)</strong></summary>
-
+<br>
+  
 **1:1 Erweiterung zu Assets mit OT-spezifischen Feldern:**
 
 **Classification Extended:**
