@@ -153,6 +153,8 @@ Das System implementiert die vollständigen ISA-95 Hierarchien als **separate, u
 
 #### 1. Physical Location Hierarchy (Wo?)
 
+---
+
 **10 Location Types:**
 
 ```
@@ -193,10 +195,10 @@ Enterprise              → Konzern/Holding-Ebene
   
 </details>
 
----
-
 
 #### 2. Equipment Hierarchy (Was?)
+
+---
 
 **13 Equipment Classes:**
 
@@ -232,9 +234,9 @@ Enterprise              → Gesamtunternehmen
   
 </details>
 
----
-
 **Financial Rollup - Das Killer-Feature:**
+
+---
 
 Automatische, rekursive Kostenberechnung über die gesamte Equipment-Hierarchie:
 
@@ -259,9 +261,11 @@ SELECT calculate_equipment_operating_cost('Fertigungslinie A');
 - `calculate_equipment_oee(equipment_name)` - Gewichteter OEE
 - `count_equipment_assets(equipment_name, recursive)` - Asset-Anzahl
 
----
+
 
 #### 3. Process Segment Hierarchy (Wie?)
+
+---
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/processSegments.png" alt="concept" width="1000" height="800">
 
@@ -325,9 +329,11 @@ Enterprise              → Unternehmensprozesse
 ```
 <br>
 
----
+
 
 #### 4. Organizational Hierarchy (Wer?)
+---
+
 <br>
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/organization.png" alt="concept" width="1000" height="800">
