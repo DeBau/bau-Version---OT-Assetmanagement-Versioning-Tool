@@ -909,9 +909,6 @@ Jede Aktion wird geloggt:
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/securityWizard.png" alt="Version Control System" width="800" height="600">
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/security.png" alt="Version Control System" width="800" height="600">
-
-
 ## 🎯 Features
 
 ### Progressive Wizard Experience
@@ -938,8 +935,9 @@ Jede Aktion wird geloggt:
 ## 📊 13 Assessment Kategorien
 
 
-<details>
+<details open>
 <summary><strong>📊 13 Assessment Kategorien</strong></summary>
+
 
 - Architecture & Segmentation
 - CIA & Business Criticality
@@ -947,10 +945,16 @@ Jede Aktion wird geloggt:
 - Safety Integration
 - Access Control & Authentication
 - Patch Management & Vulnerability
-
+- Monitoring & Logging
+- Backup & Business Continuity
+- Resilience & Redundancy
+- Physical Security
+- Governance & Policies
+- Incident Readiness
 </details>
 
-<details open>
+
+<details >
 <summary><strong>🏗️ Kategorien</strong></summary>
   
 ### 1. Architecture & Segmentation
@@ -1031,8 +1035,8 @@ Jede Aktion wird geloggt:
 - IR team
 - Communication procedures
 - Forensics capabilities
-
 </details>
+
 
 ## 🎨 UX Highlights
 
@@ -1057,6 +1061,9 @@ Jede Aktion wird geloggt:
 ```
 
 ### Results Page
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/security.png" alt="Version Control System" width="800" height="600">
+
 ```
 - Giant overall score ring
 - Score rating badge (Excellent/Good/Fair/Poor/Critical)
