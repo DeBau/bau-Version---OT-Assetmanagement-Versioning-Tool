@@ -3,8 +3,8 @@
 
 [![Version](https://img.shields.io/badge/Version-0.8.1-blue)]()
 [![License](https://img.shields.io/badge/License-Commercial-green)]()
-[![Standard](https://img.shields.io/badge/ISA--95-Compliant-orange)]()
-[![Security](https://img.shields.io/badge/IEC%2062443-Compliant-red)]()
+[![Standard](https://img.shields.io/badge/ISA--95-partial_support-orange)]()
+[![Security](https://img.shields.io/badge/IEC%2062443-partial_support-red)]()
 
 > **Vollständig integrierte Plattform für die Verwaltung, Dokumentation, Analyse und Absicherung industrieller Assets**
 
@@ -765,11 +765,11 @@ DRAFT → REVIEW → APPROVED → PRODUCTIVE → WITHDRAWN → ARCHIVED
 
 | Standard | Bereich | Status |
 |----------|---------|--------|
-| **ISA-95 / IEC 62264** | Production Hierarchies | ✅ Implementiert |
-| **IEC 62443** | OT Security | ✅ Implementiert |
-| **ISO 13849** | Safety Categories | ✅ Integriert |
+| **ISA-95 / IEC 62264** | Production Hierarchies | ✅ Unterstützt |
+| **IEC 62443** | OT Security | ✅ Unterstützt |
+| **ISO 13849** | Safety Categories | ✅ Unterstützt |
 | **IEC 61508** | SIL Levels | ✅ Unterstützt |
-| **ISO 27005** | Risk Management | ✅ Konform |
+| **ISO 27005** | Risk Management | ✅ Unterstützt|
 | **NIS2** | Network Security | ✅ Unterstützt |
 | **GDPR** | Data Protection | ✅ Unterstützt |
 
