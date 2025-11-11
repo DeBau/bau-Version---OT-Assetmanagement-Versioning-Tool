@@ -249,7 +249,7 @@ SELECT calculate_equipment_operating_cost('Fertigungslinie A');
 
 #### 3. Process Segment Hierarchy (Wie?)
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/processSegments.png" alt="concept" width="800" height="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/processSegments.png" alt="concept" width="1000" height="800">
 
 
 **7 Segment Types:**
@@ -310,7 +310,7 @@ Enterprise              → Unternehmensprozesse
 
 #### 4. Organizational Hierarchy (Wer?)
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/organization.png" alt="concept" width="800" height="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/organization.png" alt="concept" width="1000" height="800">
 
 **9 Organization Types:**
 
@@ -340,7 +340,32 @@ Corporation             → Konzern
 
 ## Asset-Datenmodell
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/assetSoftware.png" alt="concept" width="800" height="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/assetSoftware.png" alt="concept" width="1000" height="800">
+
+<details open>
+<summary><strong>Assets - Haupttabelle (~100 Felder)</strong></summary>
+
+- Basis-Daten
+- Identifikation
+- Network (Primary)
+- Lifecycle
+- Finanzen
+- Verantwortlichkeiten
+- Sicherheit & Compliance
+- Technische Daten
+- Standort
+- Dokumentation
+- Nutzung
+- Produktion
+- Custom
+</details>
+
+
+<details>
+
+  ### 
+  
+<summary><strong>Assets -Datails</strong></summary>
 
 ### Assets - Haupttabelle (~100 Felder)
 
@@ -411,11 +436,12 @@ Corporation             → Konzern
 **Custom:**
 - Context Data (JSONB) - Beliebige zusätzliche Felder
 
-<details>
-<summary><strong>Asset Inventory - OT Extended (~135 Felder)</strong></summary>
-
+</details>
 
 ### 
+
+<details>
+<summary><strong>Asset Inventory - OT Extended (~135 Felder)</strong></summary>
 
 **1:1 Erweiterung zu Assets mit OT-spezifischen Feldern:**
 
