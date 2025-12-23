@@ -3,7 +3,7 @@
 ## 1) Was Sie am Ende erhalten
 Nach Durchführung der Schritte haben Sie:
 - ein **Zonenmodell** für ein OT-System (IACS) inkl. Conduits
-- einen **SUC** mit versioniertem Audit-Snapshot (**Asset-Scope** + **ZoneSet_in_scope** + **ConduitSet_in_scope** + optional **NeighborZones/Boundary-Conduits** als Kontext)
+- ein **SUC** mit versioniertem Audit-Snapshot (**Asset-Scope** + **ZoneSet_in_scope** + **ConduitSet_in_scope** + optional **NeighborZones/Boundary-Conduits** als Kontext)
 - Risikoanalyse (inhärent/residual), SL-T/SL-A, SPS Controls, Evidence und SPR-Auswertung
 
 
