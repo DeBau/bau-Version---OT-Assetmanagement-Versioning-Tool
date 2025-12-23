@@ -3,7 +3,7 @@
 ## 1) Was Sie am Ende erhalten
 Nach Durchführung der Schritte haben Sie:
 - ein **Zonenmodell** für ein OT-System (IACS) inkl. Conduits
-- einen **SUC** mit versioniertem Audit-Snapshot (Asset-Scope + ZoneSet + ConduitSet)
+- einen **SUC** mit versioniertem Audit-Snapshot (**Asset-Scope** + **ZoneSet_in_scope** + **ConduitSet_in_scope** + optional **NeighborZones/Boundary-Conduits** als Kontext)
 - Risikoanalyse (inhärent/residual), SL-T/SL-A, SPS Controls, Evidence und SPR-Auswertung
 
 
@@ -66,7 +66,7 @@ Stellen Sie sicher, dass folgende Stammdaten vorhanden sind (über Ihre anderen 
 ### Workflow B: SUC erstellen (Assessment)
 1. SUC anlegen
 2. Assets in Scope aufnehmen (Include/Exclude)
-3. Zonen/Conduits in den SUC übernehmen (persistieren)
+3. Zonen/Conduits im SUC **ableiten und persistieren** (ZoneSet_in_scope + ConduitSet_in_scope + NeighborZones)
 4. Risiken, SL-T, SPS, Evidence, SL-A, SPR
 5. SUC-Version freigeben (Audit-Snapshot)
 
@@ -152,16 +152,19 @@ Stellen Sie sicher, dass folgende Stammdaten vorhanden sind (über Ihre anderen 
 - Include: alle Assets, die Steuerung/Überwachung beeinflussen (PLC, HMI, Switch, IO/Drives, Engineering, OT-Services-Anbindung, DMZ/RA-Komponenten)
 - Exclude: wirklich nur, wenn begründet (z. B. außerhalb der Betrachtung, „wird in anderem SUC behandelt“)
 
-## B3) Zonen/Conduits in den SUC übernehmen (persistierter Snapshot)
+## B3) Zonen/Conduits im SUC ableiten und persistieren (Audit-Snapshot)
 1. Reiter **Architektur im SUC** (oder „Zonen/Conduits“)
 2. Button **„Zonenmodell auswählen“**
 3. Quelle wählen:
    - IACS „IL73 Control System“
    - Zonenmodell-Version (z. B. v1)
-4. Button **„Übernehmen“**
+4. Button **„Ableiten & übernehmen“** (oder „Übernehmen“)
 
-**Wichtig:**
-- Der SUC speichert nun **ZoneSet + ConduitSet** als Teil seiner Version (Audit-Snapshot).
+**Regel (SUC-Scoping):**
+- **ZoneSet_in_scope** = alle Zonen, in denen **inkludierte** Assets liegen
+- **ConduitSet_in_scope** = alle Conduits **zwischen** Zonen aus ZoneSet_in_scope
+- **NeighborZones (Kontext)** = Zonen, die über Conduits an ZoneSet_in_scope angebunden sind (Boundary/Exposure)
+- Alle anderen Zonen/Conduits aus dem IACS-Zonenmodell sind für diesen SUC **nicht relevant** und werden nicht bewertet.
 
 **Wenn Assets im Scope nicht zuordenbar sind:**
 - UI zeigt „Unassigned Assets“ → Zurück in Workflow A oder im SUC eine klare Zuordnung wählen (je nach Ihrer Policy).
@@ -240,17 +243,22 @@ Stellen Sie sicher, dass folgende Stammdaten vorhanden sind (über Ihre anderen 
 - Z-OT-SERVICES: A6
 - Z-OT-DMZ: A7, A8
 - Z-ENG-IL73: A5
+- (Optional) Z-IT als External/Neighbor-Zone
 Conduits:
 - C1 Cell↔Services
 - C2 Services↔DMZ
-- C3 DMZ↔External
+- C3 DMZ↔External (Z-IT/Remote)
 - C0 ENG↔Cell
 - optional C4 DMZ↔ENG
 
 ### B) SUC
 - SUC-IL73-Control-System erstellen
 - Assets includen (A1–A8)
-- Zonenmodell v1 übernehmen
+- Zonenmodell v1 auswählen
+- SUC leitet automatisch ab:
+  - ZoneSet_in_scope = Zonen der inkludierten Assets
+  - ConduitSet_in_scope = Conduits zwischen In-Scope-Zonen
+  - NeighborZones = angebundene Zonen als Kontext (z. B. External/IT)
 - Risk Items anlegen (R1…R4)
 - SL-T setzen (z. B. Cell=3, DMZ=3, ENG=3, Services=2–3; Conduits entsprechend)
 - SPS Templates anwenden, Evidence pflegen
@@ -268,7 +276,7 @@ Conduits:
 
 ### Checklist: SUC auditfähig?
 - [ ] Asset-Scope (Include/Exclude) vollständig
-- [ ] ZoneSet + ConduitSet im SUC persistiert
+- [ ] ZoneSet_in_scope + ConduitSet_in_scope (und NeighborZones/Boundary-Conduits, falls vorhanden) im SUC persistiert
 - [ ] Risk Items verknüpft (Zone/Conduit)
 - [ ] SL-T gesetzt und begründet
 - [ ] SPS Controls angewendet + Traceability zu Risiken
@@ -278,4 +286,3 @@ Conduits:
 - [ ] SUC-Version freigegeben
 
 ---
-
