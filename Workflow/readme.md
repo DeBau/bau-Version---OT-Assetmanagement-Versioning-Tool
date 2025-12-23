@@ -179,10 +179,15 @@ Stellen Sie sicher, dass folgende Stammdaten vorhanden sind (über Ihre anderen 
    - Impact / Likelihood
    - Treatment (Mitigate/Accept/Transfer/Avoid)
 
-**Regel für Anwender (einfach):**
-- Risiken an Übergängen → **Conduit**
-- Risiken innerhalb eines Bereichs → **Zone**
-- Asset-Risiken können zusätzlich verlinkt werden, aber Zone/Conduit ist der „Hauptanker“ im SUC
+**Regel für Anwender (einfach, passend zu Asset-Scope):**
+- Technische/komponentenbezogene Risiken → Asset (primär)
+- (z. B. Patchstand, Accounts, Hardening, Backup/Restore, lokale Konfiguration)
+- Übergangs-/Kommunikationsrisiken → Conduit
+- (z. B. Remote Access, erlaubte Ports/Protokolle, Segmentierung, Datenflusskontrolle)
+- Bereichs-/Zellenrisiken → Zone
+- (z. B. Cell-Netz-Stabilität/DoS, gemeinsame Betriebsprozesse, gemeinsame Schutzbedarfe)
+- SUC verknüpft beides: Asset-Risiken bleiben führend, Zone/Conduit dienen der Aggregation (SL-T/Controls/Boundary) und Auswertung (SPR).
+
 
 ## B5) SL-T (Target) pro Zone/Conduit setzen
 1. Reiter **Security Level**
@@ -221,6 +226,9 @@ Stellen Sie sicher, dass folgende Stammdaten vorhanden sind (über Ihre anderen 
 3. Tool zeigt automatisch:
    - Gap: SL-T vs SL-A
    - offene Controls/Risiken, die den Gap treiben
+
+
+
 
 ## B9) SPR anzeigen (Reporting)
 1. Reiter **SPR / Dashboard**
