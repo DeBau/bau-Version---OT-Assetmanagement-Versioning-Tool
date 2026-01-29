@@ -1087,22 +1087,6 @@ Plant (Anlage)
 
 **bauVision OT-VAM** ist ein **vollständiges OT Asset Management & Versioning System** das:
 
-| # | Feature | Beschreibung |
-|---|---------|--------------|
-| 1 | **OT Asset Management** | Vollständiges Asset-Lifecycle-Management für OT |
-| 2 | **21 CFR Part 11 Versioning** | E-Signatur mit 4-Augen-Prinzip |
-| 3 | **50+ OT-Dateitypen** | PLC, HMI, Robot, Recipe, Firmware, etc. |
-| 4 | **IACS → Zone Automation** | Automatische Zone/Conduit-Ableitung |
-| 5 | **Custom SL Assessment** | Vollständig anpassbare Fragenkataloge |
-| 6 | **Quality Gates G1-G10** | IEC 62443-2-1 Meilensteine |
-| 7 | **NCISS + NIS2** | CISA Scoring mit NIS2 Reporting |
-| 8 | **5D BIA mit Vererbung** | Automatische Impact-Aggregation |
-| 9 | **VDE/DGUV Prüfungen** | Integriertes Prüfmanagement |
-| 10 | **Functional Safety** | SIL, PL, ISO 13849, IEC 62061 |
-| 11 | **Runbook System** | OT Knowledge Management |
-| 12 | **CVE Korrelation** | Automatisches Vulnerability Matching |
-
-
 ### Asset Management:
 - **Standorte** nach ISA-95 Hierarchie verwaltet
 - **Organisationen** mit automatischer Pfadberechnung abbildet
