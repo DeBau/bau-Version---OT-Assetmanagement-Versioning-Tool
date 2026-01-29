@@ -442,7 +442,7 @@ Plant (Anlage)
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetMassnahmen.png" alt="Agent" width="1200">
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetSchwachstellen.png" alt="Agent" width="1200">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetSchwachstellen01.png" alt="Agent" width="1200">
 
 ---
 
