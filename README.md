@@ -430,6 +430,8 @@ Plant (Anlage)
 
 <img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetSLC.png" alt="Agent" width="1200">
 
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Lizenzmngt.png" alt="Agent" width="1200">
+
 
 ### SECURITY-Features:
 | Feature | Beschreibung |
