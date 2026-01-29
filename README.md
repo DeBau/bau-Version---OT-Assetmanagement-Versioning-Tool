@@ -763,7 +763,7 @@ Plant (Anlage)
 ## SECURITY PROTECTION RATING (SPR)
 
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/SLTTemplate.png" alt="Agent" width="1200">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/SPR.png" alt="Agent" width="1200">
 
 
 **Aggregierte Security-Bewertung**
