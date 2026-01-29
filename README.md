@@ -548,6 +548,8 @@ Plant (Anlage)
 
 ## ASSET VERSIONING (21 CFR Part 11 konform)
 
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Versionierung.png" alt="Agent" width="1200">
+
 
 **Vollständige Versionskontrolle für OT-Dateien mit elektronischer Signatur**
 
@@ -781,6 +783,10 @@ Plant (Anlage)
 
 **IEC 62443-2-1 Meilensteine**
 
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Gates.png" alt="Agent" width="1200">
+
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           QUALITY GATES                                     │
@@ -831,6 +837,9 @@ Plant (Anlage)
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/IncedentTimeline.png" alt="Agent" width="1200">
+
 
 ### NCISS Scoring (CISA
 
