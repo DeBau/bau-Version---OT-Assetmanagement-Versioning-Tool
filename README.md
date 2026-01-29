@@ -225,7 +225,6 @@ IACS-Gruppe (Logische Gruppierung)
 | **Equipment Import** | Equipment als Systeme importieren |
 | **Asset-Zuordnung** | Welche Assets zu welchem System |
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="1200">
 
 ### SECURITY-Features:
 | Feature | Beschreibung |
@@ -549,6 +548,7 @@ Plant (Anlage)
 
 ## ASSET VERSIONING (21 CFR Part 11 konform)
 
+
 **Vollständige Versionskontrolle für OT-Dateien mit elektronischer Signatur**
 
 ```
@@ -578,6 +578,9 @@ Plant (Anlage)
 | **Documentation** | Electrical Schema, Documentation, Manual |
 | **System** | System Image, Firmware, Project Archive, Backup |
 
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/CheckIn.png" alt="Agent" width="1200">
+
+
 ### 21 CFR Part 11 Compliance:
 
 | Feature | Beschreibung |
@@ -605,6 +608,9 @@ Plant (Anlage)
 | **Retention Policy** | Aufbewahrungsfristen |
 | **Max Upload** | Bis zu 2 GB pro Datei |
 | **Statistics Dashboard** | Versioning-Statistiken |
+
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/CheckOut.png" alt="Agent" width="1200">
 
 ---
 
@@ -755,7 +761,7 @@ Plant (Anlage)
 ## SECURITY PROTECTION RATING (SPR)
 
 
-<img src="<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/SLTTemplate.png" alt="Agent" width="1200">" alt="Agent" width="1200">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/SLTTemplate.png" alt="Agent" width="1200">
 
 
 **Aggregierte Security-Bewertung**
@@ -808,7 +814,7 @@ Plant (Anlage)
 
 ## INCIDENT MANAGEMENT (NIST SP 800-61 + NIS2)
 
-<img src="<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Incedents.png" alt="Agent" width="1200">" alt="Agent" width="1200">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Incedents.png" alt="Agent" width="1200">
 
 
 **OT-Incident Response mit CISA NCISS Scoring**
@@ -827,7 +833,6 @@ Plant (Anlage)
 ```
 
 ### NCISS Scoring (CISA
-
 
 | Impact-Kategorie | Beschreibung | Scoring |
 |------------------|--------------|---------|
@@ -896,13 +901,17 @@ Plant (Anlage)
 | **Time Estimates** | Geschätzte Dauer |
 
 
-<img src="<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/IncedentPlaybooks.png" alt="Agent" width="1200">" alt="Agent" width="1200">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/IncedentPlaybooks.png" alt="Agent" width="1200">
 
 ---
 
 ## BUSINESS IMPACT ASSESSMENT (BIA)
 
 **5-dimensionale Auswirkungsanalyse mit Vererbung**
+
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/BIA.png" alt="Agent" width="1200">
+
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -955,6 +964,9 @@ Plant (Anlage)
 
 ## VULNERABILITY MANAGEMENT
 
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/CVEs.png" alt="Agent" width="1200">
+
+
 **CVE-Tracking und Asset-Korrelation**
 
 | Feature | Beschreibung |
@@ -989,6 +1001,9 @@ Plant (Anlage)
 ---
 
 ## SYSTEM UNDER CONSIDERATION (SUC)
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/SuC.png" alt="Agent" width="1200">
+
 
 **Strukturierte Systemdokumentation für Assessments**
 
@@ -1065,23 +1080,6 @@ Plant (Anlage)
 | **Network Status** | Dokumentationsstatus Netzwerke |
 | **Assessment Progress** | Fortschritt SL-Assessments |
 | **Quality Gate Status** | Gate-Readiness pro SUC |
-
----
-
-# STATISTIKEN
-
-| Metrik | Wert |
-|--------|------|
-| **Datenbank-Tabellen** | 213 |
-| **Domain Packages** | 29 |
-| **API Endpoints** | 300+ |
-| **Frontend Pages** | 27 |
-| **Frontend Components** | 167 |
-| **Backend LOC** | ~50.000 |
-| **Frontend LOC** | ~80.000 |
-| **Compliance Standards** | 15+ |
-| **Container Services** | 11 |
-
 
 ---
 
