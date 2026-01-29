@@ -43,9 +43,8 @@ Enterprise
             └── Cell (Zelle)
                  └── Unit (Einheit)
 ```
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="600">
 
-
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Standorte.png" alt="Agent" width="600">
 
 
 ### TECHNIK-Features:
@@ -85,7 +84,8 @@ Enterprise
             └── Team
                  └── Role
 ```
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="600">
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Organisationen.png" alt="Agent" width="600">
 
 ### TECHNIK-Features:
 | Feature | Beschreibung |
@@ -124,7 +124,7 @@ Hauptprozess
   └── Teilprozess 2
 ```
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Prozesse.png" alt="Agent" width="600">
 
 
 ### TECHNIK-Features:
@@ -138,14 +138,14 @@ Hauptprozess
 | **Flow Layout** | Node-Positionen speicherbar |
 | **Beziehungen** | Standorte, Equipment, Assets, Organisationen |
 
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Prozesse_kritisch.png" alt="Agent" width="600">
+
 ### INSTANDHALTUNG-Features:
 | Feature | Beschreibung |
 |---------|--------------|
 | **Prozess-Equipment** | Welche Anlagen für welchen Prozess |
 | **Ausfallauswirkung** | Cascade-Effekte bei Störung |
 | **Prozess-Dokumentation** | Verlinkte Runbooks |
-
-
 
 
 ### SECURITY-Features:
@@ -194,6 +194,8 @@ Hauptprozess
 | **Security Zone** | Zuordnung zu Security Zones |
 | **DPI/IDS** | Deep Packet Inspection, Intrusion Detection |
 
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/NetworkRunbook.png" alt="Agent" width="600">
+
 ---
 
 ## 5. SYSTEME (IACS - Industrial Control Systems)
@@ -208,7 +210,7 @@ IACS-Gruppe (Logische Gruppierung)
   └── HMI System
 ```
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/IACS.png" alt="Agent" width="600">
 
 ### TECHNIK-Features:
 | Feature | Beschreibung |
@@ -237,7 +239,7 @@ IACS-Gruppe (Logische Gruppierung)
 | **Zonen-Zuordnung** | System-to-Zone Mapping |
 | **Conduit-Zuordnung** | System-to-Conduit Mapping |
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/autIACS.png" alt="Agent" width="600">
 
 ---
 
@@ -252,7 +254,7 @@ Plant (Anlage)
             └── Machine (Maschine)
                  └── Anlage (Komponente)
 ```
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Equipments.png" alt="Agent" width="600">
 
 
 ### TECHNIK-Features:
@@ -291,7 +293,7 @@ Plant (Anlage)
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/EuipmentLifecycle.png" alt="Agent" width="600">
 
 
 | Feature | Beschreibung |
@@ -315,7 +317,7 @@ Plant (Anlage)
 | **Messwerte** | Iso-Widerstand, Schleifenimpedanz, RCD, etc. (JSONB) |
 | **Nächster Termin** | Automatische Berechnung Folgeprüfung |
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/VDE.png" alt="Agent" width="600">
 
 
 #### Prüfchecklisten (VDE-konform):
@@ -346,7 +348,7 @@ Plant (Anlage)
 | **Statistiken** | Views Count, Helpful Count |
 | **Attachments** | Dateien anhängen |
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/EquipmentRunbook.png" alt="Agent" width="600">
 
 
 ### SECURITY-Features:
@@ -370,7 +372,7 @@ Plant (Anlage)
 | **Proof Test Schedule** | Intervall + letzte/nächste Prüfung |
 
 
-<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/images/agent.png" alt="Agent" width="600">
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/Safety.png" alt="Agent" width="600">
 
 
 #### Safety Assessments (Risikobeurteilung):
@@ -405,6 +407,10 @@ Plant (Anlage)
 
 **Software, Firmware, Konfigurationen auf Equipment**
 
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetDetail.png" alt="Agent" width="600">
+
+
 ### TECHNIK-Features:
 | Feature | Beschreibung |
 |---------|--------------|
@@ -415,6 +421,8 @@ Plant (Anlage)
 | **Beziehungen** | Equipment, Standorte, Organisationen, Prozesse, Netzwerke, Zonen |
 | **Enriched View** | ISA-95 Breadcrumbs, Relationship Counts |
 
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetNetworks.png" alt="Agent" width="600">
+
 ### INSTANDHALTUNG-Features:
 | Feature | Beschreibung |
 |---------|--------------|
@@ -423,12 +431,23 @@ Plant (Anlage)
 | **Lifecycle (SLC)** | Software Lifecycle Status |
 | **Security Config** | Sicherheitsparameter |
 
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetUpdates.png" alt="Agent" width="600">
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetSLC.png" alt="Agent" width="600">
+
+
 ### SECURITY-Features:
 | Feature | Beschreibung |
 |---------|--------------|
 | **Risk Scenarios** | Asset-spezifische Risikoszenarien |
 | **CVE Matching** | Automatische Vulnerability-Korrelation |
-| **Zone-Vererbung** | Zone von übergeordnetem Asset/Equipment |
+
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetRisiko.png" alt="Agent" width="600">
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetMassnahmen.png" alt="Agent" width="600">
+
+<img src="https://github.com/DeBau/bau-Version---OT-Assetmanagement-Versioning-Tool/blob/main/Images/AssetSchwachstellen.png" alt="Agent" width="600">
 
 ---
 
